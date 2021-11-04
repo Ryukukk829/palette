@@ -38,6 +38,7 @@ class InstrumentSelector():
         return self.get_instruments()
 
     #色から楽器を設定
+    """
     def color2instrument(self, color):
         color = list(color)
         i = 0
@@ -58,7 +59,14 @@ class InstrumentSelector():
             
         print(color, i)
         return i
-
+    """
+    #colorは3次元配列
+    def color2instrument(self, color):
+        if color.mean() >= 127:
+            return 1
+        else:
+            return 0
+    
     #ファイルへの書き込み
     def write(self, f = "./imgs/hoge.mid"):
         self.midi.write(f)

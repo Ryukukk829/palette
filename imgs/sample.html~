@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+   <meta charset="utf-8">
+   <title>サンプル</title>
+   <meta name="description" content="htmlサンプル">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <!----- main ----->
+   <article>
+     <h1>タイトルだ!!</h1>
+     <p>
+     hogehoge
+     </p>
+     <section>
+       <h2>見出し</h2>
+       <p>
+	 piyopiyo
+       </p>
+     <video controls>
+       <source src="movie1.mp4">
+     </video>
+     </section>
+   </article>
+   <!----- /main ----->
+   
+ </body>
+</html>
+
+
+
