@@ -67,20 +67,6 @@ def main(wait_time = 2, path = "imgs/screenshot"):
 
     print("end")
 
-    """
-    
-    b1 = driver.find_elements_by_link_text("Mixed Reality Capture")
-    print(b1)
-    b1.click()
-    b2=driver.find_elements_by_id("livePreviewButton")
-    b2.click()
-    b3=driver.find_elements_by_id("wdp-nav-multilevelbutton0")
-    b3.click()
-    #buttonおす
-    src = "api/holographic/stream/live_high.mp4"
-    driver.get("{}/{}".format(url, src))
-    """
-
 
 # Authorizationヘッダを付与
 def get_auth_header(user, password):
